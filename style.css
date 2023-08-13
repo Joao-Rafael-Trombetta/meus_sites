@@ -4,9 +4,6 @@ body {
   padding: 0;
   background-color: #121212;
   color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .header {
@@ -15,14 +12,17 @@ body {
   text-align: left;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
-  padding-left: 20px;
 }
 
 li {
@@ -56,17 +56,18 @@ li {
 
 .github-section {
   text-align: left;
-  padding: 20px;
+  margin-top: 20px;
 }
 
 .white-section {
   text-align: left;
-  padding: 20px;
+  margin-top: 20px;
 }
 
 p {
   font-family: 'Frutiger', sans-serif;
   margin: 0;
 }
+
 
   
