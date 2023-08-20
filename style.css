@@ -1,0 +1,60 @@
+
+ 
+ 
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: black;
+   color: #F6F6F6;
+}
+.titulo{
+    color: #22d4fd;
+  }
+  
+.apresentacao{
+  margin: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.apresentacaofilho {
+    width: 393px;
+    height: 229px;
+
+}
+
+.tituloh1{
+  font-size: 29px;
+}
+
+.paragrafo{
+  font-size: 24.6px;
+}
+
+.botoes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes__estilo{
+  background-color: #22d4fd;
+  width: 280px;
+  text-align: center;
+  border-radius: 16px;
+  font-size: 24px;
+  padding: 21px;
+  text-decoration: none;
+
+}
+
+.img{
+   width: 600px;
+   position: inherit ;
+}
